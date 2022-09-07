@@ -1,0 +1,60 @@
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    #slider .carousel-item .hero h1 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .heading, .join-left-content{
+        width: 100%;
+    }
+    .heading .heading-title{
+        font-size: 25px;
+        line-height: normal;
+    }
+    #discover .card img{
+        width: 100%;
+    }
+    #ready-to-join .join-content {
+        padding: 40px;
+    }
+    .join-left-content {
+        width: 100%;
+        text-align: center;
+    }
+    .join-left-content h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+    }
+    .join-content button{
+        margin-top: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .last-ul{
+        padding-left: 0;
+    }
+    #slider .carousel-item .hero h1 {
+        font-size: 35px;
+        line-height: 55px;
+    }
+    .heading .heading-title {
+        font-size: 35px;
+        line-height: 50px;
+    }
+    .join-left-content {
+        width: 100%;
+        text-align: center;
+    }
+    .join-content button{
+        margin-top: 30px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
